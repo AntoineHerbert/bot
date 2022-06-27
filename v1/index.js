@@ -19,4 +19,4 @@ client.on('message', (message) => {
     message.channel.send('pong');
   }
 });
-client.login(config.token);
+client.login(config.prefix+config.token);
