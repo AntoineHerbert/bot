@@ -1,4 +1,5 @@
 {
+  
   "name": "bot_zarkoy",
   "version": "1.0.0",
   "description": "mmrBot",
@@ -10,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.8.1"
-  }
+  },
+  "start": "node index.js"
 }
