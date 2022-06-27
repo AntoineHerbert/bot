@@ -19,4 +19,4 @@ client.on('message', (message) => {
     message.channel.send('pong');
   }
 });
-client.login(process.env.TOKEN);
+client.login(this.toString(process.env.TOKEN));
