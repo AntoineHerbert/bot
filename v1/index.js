@@ -1,5 +1,5 @@
 const kick = require("./commande/testCommande")
-const config = require('./config.json');
+
 
 module.exports = (client, message) => {
   if (message.content.startsWith("!kick")) {
